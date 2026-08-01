@@ -1,0 +1,169 @@
+body {
+    background-color: #003a74;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #0066cc;
+    border: 2px dashed #2c537a;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.detail-image-placeholder {
+    width: 100%;
+    height: 350px;
+    background-color: #092d52;
+    border: 2px dashed #630466;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.motor-card {
+  background-color: #2a0845 !important; 
+    color: #ffffff !important;          
+    border: 1px solid #bc13fe !important;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.motor-card:hover {
+   transform: translateY(-5px);
+    box-shadow: 0 0 20px #bc13fe, 0 0 40px #bc13fe !important;
+}
+.motor-card .card-text {
+    color: #d8b4fe !important;
+}
+.motor-card hr {
+    border-color: #bc13fe !important; /
+    opacity: 0.5;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.card-link:hover {
+    color: inherit;
+}
+
+.card.shadow-sm.bg-white {
+    background-color: #2a0845 !important;
+    color: #ffffff !important;
+    border: 1px solid #bc13fe !important;
+    box-shadow: 0 0 25px rgba(188, 19, 254, 0.4) !important;
+}
+
+.card.shadow-sm.bg-white .lead {
+    color: #d8b4fe !important;
+}
+.card .table {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+.card .table td.text-secondary {
+    color: #d8b4fe !important; 
+}
+
+.card .table td.text-dark {
+    color: #ffffff !important; 
+}
+
+.card .table td {
+    border-color: rgba(188, 19, 254, 0.3) !important; 
+}
+
+.card .table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(188, 19, 254, 0.1) !important; 
+    color: #ffffff !important;
+}
+
+.card .table-hover > tbody > tr:hover > * {
+    background-color: rgba(188, 19, 254, 0.25) !important; 
+    color: #ffffff !important;
+}
+
+.card h4.text-dark {
+    color: #ffffff !important;
+}
+
+.card .table-responsive {
+    border-color: #bc13fe !important;
+}
+.btn-secondary {
+    background-color: #2a0845 !important;
+    color: #d8b4fe !important;
+    border: 1px solid #bc13fe !important;
+    box-shadow: 0 0 10px rgba(188, 19, 254, 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #bc13fe !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px #bc13fe !important;
+}
+
+.image-placeholder,
+.detail-image-placeholder {
+    background-color: #1a042d !important;
+    border: 2px dashed #bc13fe !important;
+    color: #d8b4fe !important;
+    box-shadow: inset 0 0 15px rgba(188, 19, 254, 0.2);
+}
+
+.badge.bg-danger {
+    background-color: #bc13fe !important; 
+    color: #ffffff !important;
+    box-shadow: 0 0 8px #bc13fe;
+}
+
+.badge.bg-success {
+    background-color: #00ffcc !important; 
+    color: #000000 !important;
+    font-weight: bold;
+    box-shadow: 0 0 8px #00ffcc;
+}
+
+h1.text-danger, 
+.display-5 {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px #bc13fe, 0 0 20px #bc13fe;
+}
+
+.card-title, .fw-bold {
+    color: #ffffff !important;
+}
+
+.card-text strong {
+    color: #bc13fe !important; 
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    background-color: rgba(188, 19, 254, 0.15) !important; /* Hafif saydam neon mor */
+    color: #ffffff !important;}
+    .table-striped > tbody > tr:nth-of-type(even) > * {
+    background-color: rgba(26, 4, 45, 0.4) !important; /* Koyu mor saydam */
+    color: #ffffff !important;
+    .table td, 
+.table td.text-secondary, }
+.table td.text-dark {
+    color: #ffffff !important;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+.table td:first-child {
+    color: #d8b4fe !important;
+    font-weight: 600;
+}
